@@ -1,0 +1,106 @@
+
+/* Basic page style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+/* Sections */
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Skills and projects */
+.skills,
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills div,
+.card {
+    background-color: #eeeeee;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card {
+    width: 180px;
+}
+
+/* Contact form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    margin: auto;
+}
+
+input,
+textarea,
+form button {
+    padding: 10px;
+}
+
+textarea {
+    min-height: 80px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Dark theme */
+.dark-theme {
+    background-color: #222;
+    color: white;
+}
+
+.dark-theme .skills div,
+.dark-theme .card {
+    background-color: #444;
+    color: white;
+}
+
+/* Mobile responsive design */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        display: inline-block;
+    }
+
+    .card {
+        width: 100%;
+    }
+}

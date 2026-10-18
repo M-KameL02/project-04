@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2>My Portfolio</h2>
+
+            <div>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <button id="theme-button">Change Theme</button>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>Hello, I'm Mohammad Shawaqfeh</h1>
+
+        <img src="assest/profile.jpg" alt="My profile photo" width="150">
+
+        <h2>About Me</h2>
+        <p>
+           Hi! I’m a Software Engineer who loves turning complex problems into simple,
+            elegant software solutions. Whether it's building responsive web applications, 
+            optimizing backend architectures, or experimenting with new tools, 
+            I enjoy every part of the development lifecycle.
+             Outside of coding, I’m constantly sharpening my problem-solving skills and 
+             staying up-to-date with emerging tech trends.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <div>Languages: Python, JavaScript, C++, SQL</div>
+            <div>Web & Frameworks: React, Node.js, HTML/CSS, REST APIs</div>
+            <div>Databases & Tools: MySQL, MongoDB, Git, Docker, VS Code</div>
+            <div>Core Competencies: Data Structures, Algorithms, OOP, Agile Development</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects">
+            <div class="card">
+                <h3>Project 00</h3>
+                <p>My first programming exercise.</p>
+            </div>
+
+            <div class="card">
+                <h3>Project 01</h3>
+                <p>Grade calculator and access checker.</p>
+            </div>
+
+            <div class="card">
+                <h3>Project 02</h3>
+                <p>Changing webpage elements with JavaScript.</p>
+            </div>
+
+            <div class="card">
+                <h3>Project 03</h3>
+                <p>An interactive counter.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <p>I enjoy learning, reading, and exploring technology.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p id="form-message"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
